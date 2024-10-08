@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 25%;
+    border-right: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.patient-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.patient-list li {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s;
+}
+
+.patient-list li:hover {
+    background-color: #e9ecef;
+}
+
+.patient-list li.selected {
+    background-color: #f0f0f0;
+}
+
+.content {
+    width: 75%;
+    padding: 20px;
+}
+
+.alert {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.data-section {
+    margin-top: 20px;
+}
+
+.data-section h2 {
+    margin-bottom: 10px;
+}
+
+.data-section div {
+    margin-bottom: 10px;
+}
+
+.chart-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.chart {
+    width: 48%; /* Adjust width for two charts per row */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.chart h3 {
+    margin: 0 0 10px;
+    text-align: center;
+}
